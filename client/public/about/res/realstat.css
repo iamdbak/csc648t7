@@ -1,0 +1,47 @@
+
+ body{
+                background-image: url(background.jpg);
+                
+            }
+            .centered {
+                color:blue; font-style:italic; text-align:center;
+                
+            }
+            h1 { 
+                text-align: center;
+                font-family: Charmonman, cursive; 
+                 border-width: 2px; border-color: blue; border-bottom: solid blue 5px; background-color: lightblue;
+            }
+h2 {
+    border: 1px solid darkgray;
+    background-color: lightgray;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius: 15px;
+}
+            .discription{
+                font-size:15px;
+                font-style: oblique;
+            }
+           
+
+            h2{
+                text-align: center;
+                text-shadow: 2px 2px black;
+                color:goldenrod;
+                
+            }
+    #wrapper{
+    display:grid;
+    width: 100%;
+    background-color:#90C7E3;
+    max-width:960px;
+    margin:0 auto;
+    margin-top:20px;
+    box-shadow:20px 20px 20px gray;
+            }
+img
+       
+{
+    margin-left: 275px;
+} 
