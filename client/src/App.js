@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {Button,Layout, Header, Navigation, Drawer, Content, Card, CardTitle, CardActions} from 'react-mdl';
 import './App.css';
 
 class App extends Component {
@@ -27,16 +27,36 @@ class App extends Component {
     	return body;
   }
 
+
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-	<p className="App-intro">{this.state.data}</p>
+  <div className="demo-big-content">
+    <Layout className="page-layouter">
+        <Header className="header-color" title="SF Affordable Again" scroll>
+            <Navigation>
+                <a href="#">About</a>
+            </Navigation>
+        </Header>
+        <Drawer title="">
+            <Navigation>
+                <a href="#">About</a>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div style={{display: 'flex', justifyContent: 'center'}} className="page-content">
+	<Button>Raj</Button>
+	<Button>Noureddine</Button>
+	<Button>Akash</Button>
+	<Button>Preyansh</Button>
+	<Button>Henok</Button>
+	<Button>Bing</Button>
       </div>
-    );
+    </Content>
+  </Layout>  
+ </div>
+  );
   }
 }
 
